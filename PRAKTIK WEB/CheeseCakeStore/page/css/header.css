@@ -1,0 +1,99 @@
+
+/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+/*----------------header-------------------------*/
+header {
+    background-color:#7469B6;
+    color: #FFE6E6;
+    padding: 10px;
+    text-align: center; 
+}
+
+header span {
+    display: inline-block;
+}
+
+header span:nth-child(1) {
+    color: #FFE6E6;
+}
+
+header span:nth-child(2) {
+    color: #E1AFD1;
+    letter-spacing: 6px;
+    font-size: 16px;
+}
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #e69292;
+    border-spacing: 1px;
+    border-bottom: #e69292 solid 4px;
+}
+
+
+@media (max-width: 680px) {
+    nav a {
+        font-size: 12px;
+        margin: auto;
+    }
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    background-color: #7469B6;
+    padding: 10px;
+    text-align: center;
+}
+.fixed-navbar ul {
+    list-style: none;
+    padding: 0;
+}
+.fixed-navbar li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.fixed-navbar a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.fixed-navbar a:hover {
+    color: #E1AFD1;
+    border-spacing: 1px;
+    border-bottom: #E1AFD1 solid 4px;
+}

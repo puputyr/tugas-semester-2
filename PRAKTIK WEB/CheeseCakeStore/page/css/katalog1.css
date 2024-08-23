@@ -1,0 +1,80 @@
+.Katalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #FFE6E6;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.item h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.item p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.item-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #ff6600;
+}
+/* button */
+.location .item-details,
+.keranjang {
+    display: inline-block;
+    padding: -10px -20px;
+    background-color: #AD88C6;
+    color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.keranjang img {
+    width: 40px; 
+    margin-bottom: -5px
+}
+
+.location.item-details,
+.keranjang:hover {
+    background-color: #E1AFD1;
+}
+
+.location .item-details,
+.buy-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #AD88C6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin-left: -115px;
+}
+
+.location.item-details,
+.buy-button:hover {
+    background-color: #E1AFD1;
+}

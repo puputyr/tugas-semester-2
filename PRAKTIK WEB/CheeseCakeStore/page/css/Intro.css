@@ -1,0 +1,72 @@
+
+/*=-------------------------------------------about--------------------*/
+#about {
+    padding: 30px;
+    text-align: center;
+}
+.Home-content .weare { 
+    padding: 30px;
+    text-align: center; 
+}
+
+.about-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.location .Home-content,
+.order-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #AD88C6;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+
+}
+
+.location.Home-content,
+.order-button:hover {
+    background-color: #E1AFD1;
+}
+.location,
+.contact-info {
+    flex-basis: 90%;
+    /* Two columns with some spacing */
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.location h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #7469B6;
+}
+
+.location p {
+    font-size: 16px;
+    color: #7469B6;
+}
+
+.map {
+    flex-basis: 100%;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.map h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #7469B6;
+}
+
+@media (max-width: 680px) {
+    .map iframe {
+        height: 250px; /* Adjust the height for mobile view */
+    }
+}
